@@ -6,8 +6,9 @@ alias mkdir="mkdir -pv"
  
 alias rm="rm -v"
 alias rmf="rm -rfvI"
- 
-alias grep="grep --color=auto -IHrni"
+
+alias grep="grep --color=auto -i"
+alias grepr="grep --color=auto -IHrni"
 alias hgrep="history | grep"
  
 alias .1="cd .."
