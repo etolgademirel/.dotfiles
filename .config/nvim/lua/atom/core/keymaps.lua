@@ -22,6 +22,7 @@ keymap.set("n", "<leader>tp", "<cmd>tabp<cr>", { desc = "Go to previous tab" })
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<cr>", { desc = "Open current buffer in new tab" })
 
 keymap.set("n", "<C-s>", "<cmd>w<cr>", { desc = "Save current file" })
+keymap.set("n", "<C-x>", "<cmd>x<cr>", { desc = "Save and close file" })
+
 keymap.set("n", "<leader>q", "<cmd>q!<cr>", { desc = "Close current file" })
 keymap.set("n", "<leader>qq", "<cmd>qa!<cr>", { desc = "Close everything" })
-
