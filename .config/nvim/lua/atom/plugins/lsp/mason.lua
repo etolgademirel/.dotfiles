@@ -28,13 +28,15 @@ return {
             -- list of servers for mason to install
             ensure_installed = {
                 "clangd",
-                "pyright",
+                -- "pyright",
             },
         })
 
         mason_tool_installer.setup({
             ensure_installed = {
-                "pylint",
+                "cpptools",
+                "clang-format",
+                -- "pylint",
             },
         })
     end,
