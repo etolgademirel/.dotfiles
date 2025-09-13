@@ -1,0 +1,44 @@
+[commit]
+	verbose = true
+[merge]
+	conflictstyle = diff3
+	tool = meld
+	guitool = meld
+[fetch]
+	all = true
+	prune = true
+	pruneTags = true
+[core]
+	excludesfile = /home/tolga/.gitignore
+	editor = nvim
+[rebase]
+	autoStash = true
+	autoSquash = true
+	updateRefs = true
+[user]
+	name = John Doe
+	email = johndoe@example.com
+[grep]
+	lineNumber = true
+	extendedRegexp = true
+	fallbackToNoIndex = true
+[help]
+	autocorrect = true
+[alias]
+    st = status
+    sts = status --short
+    co = checkout
+    cob = checkout -b
+    ci = commit
+    cm = commit -m
+    ca = commit --amend
+    cane = commit --amend --no-edit
+	br = branch
+    l = log
+    lo = log --oneline
+    lop = log --graph --decorate --pretty=oneline --abbrev-commit
+    d = diff
+    ds = diff --staged
+    dm = difftool -y -t meld
+    discard = reset HEAD --hard
+    cfgl= config --global --list
