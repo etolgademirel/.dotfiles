@@ -9,7 +9,7 @@
 	prune = true
 	pruneTags = true
 [core]
-	excludesfile = /home/tolga/.gitignore
+	excludesfile = ~/.gitignore
 	editor = nvim
 [rebase]
 	autoStash = true
