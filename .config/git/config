@@ -9,7 +9,7 @@
 	prune = true
 	pruneTags = true
 [core]
-	excludesfile = ~/.gitignore
+	excludesfile = ~/.config/git/ignore
 	editor = nvim
 [rebase]
 	autoStash = true
